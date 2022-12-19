@@ -52,14 +52,15 @@ include ('Paciente.php');
                         <a class="nav-link" href="../CUIDADOS.html">Cuidados</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./MANEJO ANTE CONDUCTAS DESAFIANTES.html">Conductas Desafiantes</a>
+                    <a class="nav-link active" aria-current="page" href="../MANEJO ANTE CONDUCTAS DESAFIANTES.html">Conductas desafiantes</a>
+                   
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="./CUIDATE PARA CUIDAR.html">Cuidate para Cuidar</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Contactenos
+                        Formularios
                         </a>    
                         <ul class="dropdown-menu navbar-drop">
                         <li><a class="dropdown-item" href="../admi.html">Inicio de Sesión</a></li>
@@ -146,118 +147,15 @@ include ('Paciente.php');
                 </div>
             </div>
         </footer>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-<!--     
-            <nav>
-                <a href="index.html"class="img-logo"> <img src="../Imagenes/Imagen1 .0.jpg" style="margin-top: 17px;"  alt="" width="150" height="150"></a> 
-                <ul>
-                    <li> <a href="../index.html"> INICIO </a>   </li>
-                    <li> <a href="../CUIDADOS.html"> CUIDADOS </a>   </li>
-                    <li> <a href="../MANEJO ANTE CONDUCTAS DESAFIANTES.html"> CONDUCTAS DESAFIANTES </a></li> 
-                    <li> <a href="../CUIDATE PARA CUIDAR.html"> CUIDATE PARA CUIDAR </a></li> 
-                    <li> <a href="../ALGUNOS APOYOS.html"> APOYO </a></li> 
-                    <li> <a href="../Paciente/add.php"> CONTACTANOS </a></li> 
-                </ul>
-            </nav>
- -->
-
-
-        <!-- <div class="container">
+      
 
         <?php
             if(isset($mensaje)){
                 echo $mensaje;
             }
         ?>
-            <h2 class="text-center mb-2"> Registrar sesión</h2>
-        <form method="POST" enctype="multipart/form-data">
-            <div class="row mb-2">
-                <div class="col"> 
-                    <input type="text" name="nombres" id="nombres" placeholder="Nombres del paciente" class="form-control" />
-                </div>
-                <div class="col"> 
-                    <input type="text" name="apellidos" id="apellidos" placeholder="Apellidos del paciente" class="form-control" />
-                </div>   
-            </div>
-            <div class="row mb-2">
-                <div class="col"> 
-                    <input type="text" name="email" id="email" placeholder="Email del paciente" class="form-control" />
-                </div>
-                <div class="col"> 
-                    <input type="number" name="celular" id="celular" placeholder="Celular del paciente" class="form-control" />
-                </div>   
-            </div>
-            <div class="row mb-2">
-            <div class="col">
-                    <textarea id="enfermedades" name="enfermedades" id="enfermedades" placeholder="Email del paciente" class="form-control"> </textarea>
-                </div>
-                <div class="col"> 
-                    <input type="text" name="duracionSecion" id="duracionSecion" placeholder="Duración de la sesión" class="form-control" />
-                </div>   
-            </div>
-            <div class="row mb-2">
-            <div class="col">
-                    <input type="datetime-local" name="fecha" id="fecha" class="form-control"/>
-                </div>
-                <div class="col"> 
-                    <input type="file" name="imagen" id="imagen" class="form-control" />
-                </div>   
-            </div>
-            <button class ="btn btn-success"> Registrar</button>
-            <button class ="btn btn-success"> Registrar</button>
-
-        </form> -->
-
-        </div>  
-
-        <!-- <footer  class="bg-drak bg-gradient"> 
-
-        <div class="d-flex align-content-center flex-row justify-content-center"> 
-
-        <div class="f-content">
-
-        <address>LEY 39/2006, de 14 de diciembre, de Promoción
-        de la Autonomía Personal y Atención a las personas
-        en situación de dependencia.</address>
-        <address>Todos los derechos reservados</address>
-
-        
-        </div>     
-        <div>
-
-        </div>
-        <form action="#" method="#">
-        <div class ="box">
-            <i class="fab fa-angular"></i>
-
-        </div>
-
-
-        <a href="#">Facebook</a>
-        <a href="#">Twitter</a>
-        <a href="#">Instagram</a>
-            
-        </p>
-
-        </form>
-        </div>
-        </footer> -->
+           
         <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-        <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script> -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
     </body>
