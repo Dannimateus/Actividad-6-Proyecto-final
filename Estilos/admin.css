@@ -1,0 +1,113 @@
+
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+
+    body{
+        margin: 0;
+        padding: 0;
+    }
+
+    .navbar  a {
+        color: #fff !important;
+    } 
+    
+    
+    .navbar  a:hover {
+        color: gray !important;
+    } 
+
+    .navbar-drop {
+        background-color: #343a40!important;
+    }
+
+    .dropdown-item:hover {
+        background-color: #343a40!important;
+    }
+    
+    .center-items {
+        justify-content: center;
+    }
+
+    .carousel-inner {
+        max-height:  50rem !important;
+    }
+
+    .container-login {
+        margin-top: 4%;
+        margin-bottom: 4%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .title-sesion {
+        margin-top: 8%;
+        font-family: Roboto;
+        font-weight: 900;    
+    }
+
+    .card-size {
+        width: 50% !important;
+    }
+
+    .bg-footer {
+        background-color: rgb(13, 135, 151);
+        height: 22rem;
+        padding-top: 4%;
+    }
+
+    .art-style {
+        background-color: #fff;
+        border-radius: 15px;
+        color: #000;
+        display: flex;
+        font-weight: bold;
+        font-size: 19px;
+        height: 5rem;
+        justify-content: center;
+        margin-top: 5%;
+        margin-left: 3%;
+        margin-right: 3%;
+        padding-top: 1.5rem;
+        font-family: Roboto;
+    }
+
+    .dir-style-law {
+        background-color: #fff;
+        border-radius: 15px;
+        font-size: 19px;
+        font-family: Roboto;
+        font-weight: bold;
+        height: 5rem;
+        padding-top: .5rem;
+        margin-top: 3%;
+        margin-left: 3%;
+        margin-right: 3%;
+        padding-left: 10%;
+        padding-right: 10%;
+        text-align: center;
+    }
+
+    .reserved-rigths {
+        margin-top: 1%;
+        font-size: 18px;
+        color: #000;
+        font-weight: bold;
+    }
+
+    .icons-social-media {
+        display: flex;
+        justify-content: space-around;
+        padding-left: 20%;
+        padding-right: 20%;
+        margin-top: 3em;
+        margin-bottom: 3rem;
+    }
+
+    .icons-social-media a {
+        text-decoration: none !important;
+        color: #183153;
+    }
+
+    .btn-container, .reserved-rigths {
+        display: flex;
+        justify-content: center;
+    }

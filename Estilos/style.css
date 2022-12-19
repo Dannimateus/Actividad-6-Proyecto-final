@@ -1,0 +1,169 @@
+/* body{
+
+    background-image: url(../Imagenes/Imagen\ 11.webp)
+} */
+
+
+
+
+
+
+/* body{ */
+    /* FUENTE */
+    /* font-family: 'Handlee', cursive; */
+    /* ALT + SHIFT --- ANCHO MAXIMO */
+    /* max-width: 1500px;
+    margin: 0 auto;
+} */
+
+nav{
+    width: 100; /* ANCHO */
+    height: 160px;/* ALTO */
+    background-color: rgba(77, 105, 117, 0.411); /* COLOR */
+}
+
+
+
+  nav  ul li {
+        flex: 2;
+       list-style-type: none;
+       display: inline-block;
+       transition: 0.8s all;
+       padding: 7.5px 7.5px;
+       left: 10px;
+     }  
+   
+  nav  ul li:hover{
+    background-color: white;
+}
+
+.img-logo{
+    width: 180px; /* ANCHO */
+    padding: 20PX; /* LARGO */
+}
+
+nav ul{
+    flex: 2;
+    display: inline-flex;
+    position: relative;
+    top: 50px;
+
+}
+
+nav ul li a{
+    margin-bottom: 20;
+    text-decoration: none;
+    color: black; 
+    flex: 2;
+}
+
+
+h2,figure, ul{
+    margin: 0;
+}
+
+img{
+    max-width: 100%;
+}
+
+/* ESTILOS SECCION 1 */
+
+.seccion{
+    flex: 2;
+    background-color: rgba(77, 105, 117, 0.411);
+    padding: 15px;
+    text-align: center;
+}
+
+section h2{
+    border-bottom: 1px solid black;
+
+}s
+
+.video{
+    width: 55%;
+    padding: 15px;
+
+}
+
+.texto{
+    width: 30%;
+    padding: 15px;
+    vertical-align: top;
+}
+
+article{
+    padding: 30px;
+    background-color: rgba(56, 90, 105, 0.411);;
+}
+
+article h2{
+    border-bottom: 1px solid black;
+}
+
+.texto, .video{
+    display: inline-block;
+}
+
+.boton{
+    text-align: center; /* ALINEAR TEXTO */
+    background-color: #92CAB9;
+    padding: 10px;
+}
+
+.boton a{
+    text-decoration: none;
+    color: white;
+}
+
+.boton:hover{
+    background: pink;
+}
+
+/* ARTICLES */
+
+
+.img-art {
+    max-width: 100%;
+    padding: 15px;
+}
+
+.cont-art{
+    width: 100%;
+    vertical-align: top;
+    text-align: center;
+}
+
+footer{
+    background-color: rgb(13, 135, 151);
+    color: white;
+    line-height: 30px;
+    text-align: center;
+    padding: 45px;
+   
+}
+    
+footer div a{
+    text-decoration: none;
+    color: white;
+    margin-top: 130px;
+    border-top: solid thin  rgb(13, 135, 151);
+}
+
+.f-content{
+
+    width: 40%;
+    padding-top: 40px;
+    color: white; 
+    position: relative;
+    top: 100px;
+    left: -50px;
+    }
+
+footer form {
+
+    padding-top: 70px;
+    margin-top: 70px;
+    background-color: rgb(126, 187, 196);
+}
+
